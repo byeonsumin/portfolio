@@ -1,0 +1,1498 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Portfolio 2025 | 변수민</title>
+    <!-- <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/7786/7786263.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- 개별 css, script 파일 작성 위치 -->
+    <script src="./scripts/index.js" defer></script>
+
+    <style>
+        body,
+        html {
+            overflow-x: hidden;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            padding: 0 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            height: 70px;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            padding-left: 152px;
+        }
+
+
+
+        header nav a {
+            display: inline-block;
+            padding: 26px;
+            border-bottom: 2px solid #fff;
+            transition: all 0.3s;
+            color: #969696;
+        }
+
+        header nav a:hover {
+            border-bottom-color: #3586FF;
+            color: #3586FF;
+        }
+
+        header nav a.active {
+            border-bottom-color: #3586FF;
+            color: #3586FF
+        }
+
+        header .contact {
+            font-size: 1.063rem;
+            color: #fff;
+            background: #3586FF;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+
+        header .contact:hover {
+            background: #3586FF;
+        }
+
+
+
+        
+        /* 1페이지 -------------------------------------=----------------------- */
+        .main_section {
+            padding-top: 27px;
+            background-color: #F9F9F9;
+            align-items: center;
+            height: 919px;
+            position: relative;
+            margin-top: 13px;
+
+        }
+        .swiper {
+            width: 1920px;
+            height: 919px;
+            /* 화면 높이만큼 */
+        }
+
+
+        .main_section img {
+            width: 1670px;
+            height: 803px;
+            display: block;
+            margin: 46px auto 0 auto;
+            padding-left:27px;
+        }
+
+        .main_section .main_text {
+            position: absolute;
+            top: 50%;
+            /* 세로 중앙 */
+            left: 50%;
+            /* 가로 중앙 */
+            transform: translate(-50%, -50%);
+            /* 정확한 중앙 배치 */
+            text-align: center;
+            z-index: 1;
+            /* 헤더보다 낮게 */
+            padding-bottom: 63px;
+        }
+
+        .main_section .main_text h1 {
+            color: #3586FF;
+            font-size: 5.95rem;
+            letter-spacing: -2px;
+            display: block;
+            margin-bottom: 38px;
+            margin-top: 140px;
+            padding-right: 29px;
+        }
+
+        .main_section .main_text h2 {
+            
+            color: #1b1b1b;
+            font-size: 4.844rem;
+            letter-spacing: -2px;
+            display: block;
+            padding-right: 29px;
+            margin-bottom: 47px;
+        }
+
+        .main_section .main_text .span_group {
+            width: 395px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 100px;
+        }
+
+        .main_section .main_text .span_group span {
+            color: #969696;
+            animation-delay: 0.5s;
+            opacity: 0;
+        }
+
+        /* 2페이지 -------------------------------------=----------------------- */
+        main .profile {
+            height: 951px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F9F9F9;
+            padding-top: 50px;
+        }
+
+        main .profile .img_section {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            margin-right: 118px;
+            margin-bottom: 152px;
+            overflow: hidden;
+        }
+
+        main .profile .img_section span {
+            font-size: 1.1rem;
+            line-height: 180%;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        main .profile .img_section span .see_feel {
+            color: #3586FF;
+        }
+
+        main .profile .img_section img {
+            width: 379px;
+            height: 499px;
+        }
+
+
+        main .profile .profile_text .title_section_01 {
+            display: flex;
+        }
+
+        main .profile .profile_text .title_section_2 {
+            display: flex;
+        }
+
+        main .profile .profile_text .title_section_01 .title ul .Email {
+            margin-bottom: 40px;
+            margin-right: 137px;
+        }
+
+        main .profile .profile_text .title_section_01 .title ul li .group_1 {
+            width: 54px;
+        }
+
+        main .profile .profile_text .title_section_02 {
+            display: flex;
+        }
+
+        main .profile .profile_text .title_section_02 .title ul .license {
+            margin-right: 93px;
+        }
+
+        main .profile .profile_text .title_section_03 {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+
+        main .profile .profile_text .title_section_03 .skill .skill_list {
+            display: flex;
+            flex-flow: column;
+        }
+
+        main .profile .profile_text .title_section_03 .skill .skill_list .skill_01 ul {
+            display: flex;
+        }
+
+        main .profile .profile_text .title_section_03 .skill .skill_list .skill_01 ul li img {
+            margin-right: 13.46px;
+            margin-bottom: 30px;
+        }
+
+        main .profile .profile_text .title_section_03 .skill .skill_list .skill_02 ul {
+            display: flex;
+        }
+
+        main .profile .profile_text .title_section_03 .skill .skill_list .skill_02 ul li img {
+            margin-right: 13.46px;
+            margin-bottom: 30px;
+        }
+
+        main .profile .profile_text .title strong {
+            display: flex;
+            margin-bottom: 37px;
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        main .profile .profile_text .skill strong {
+            font-size: 1.25rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 37px;
+        }
+
+        main .profile .profile_text ul li em {
+            color: #969696;
+            margin-right: 30px;
+            display: inline-block;
+            margin-bottom: 22px;
+        }
+
+        main .profile .profile_text ul .skill .skill_list {
+            display: flex;
+        }
+
+
+
+
+
+        /* 3페이지 -------------------------------------=----------------------- */
+        main .contents {
+            background-color: #F9F9F9;
+            text-align: center;
+            height: 919px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+
+        main .contents .contents_text h2 {
+            color: #3586FF;
+            font-size: 2.188rem;
+            font-weight: 500;
+            margin-bottom: 19px;
+            padding-top: 25px;
+        }
+
+        main .contents .contents_text span {
+            color: #969696;
+            font-size: 1.125rem;
+            display: inline-block;
+            margin-bottom: 52px;
+        }
+
+        main .contents .table {
+            display: flex;
+            justify-content: center;
+        }
+
+        main .contents .table .project {
+            width: 308px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            height: 461px;
+            margin-right: 30px;
+            background-color: #fff;
+
+            /* 애니메이션 기본값 */
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        main .contents .table .project.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        main .contents .table .project .project_wrap_top ul {
+            align-items: center;
+            display: flex;
+            flex-flow: column;
+            border-bottom: 1px solid #D9D9D9;
+            padding-bottom: 30px;
+        }
+
+        main .contents .table .project .project_wrap_top ul .top_section_01 {
+            margin-top: 10px;
+            align-items: center;
+        }
+
+        main .contents .table .project .project_wrap_top ul .top_section_01 em {
+            font-size: 0.813rem;
+        }
+
+        main .contents .table .project .project_wrap_top ul .top_section_01 .round_box {
+            display: inline-block;
+            width: 168px;
+            height: 36px;
+            font-size: 0.813rem;
+            border-radius: 5px;
+            border: 1.99px solid #D9D9D9;
+            text-align: left;
+            padding: 10px 10px;
+
+        }
+
+        main .contents .table .project .project_wrap_top ul .top_section_01 .round_box_nike {
+            display: inline-block;
+            width: 168px;
+            height: 36px;
+            font-size: 0.813rem;
+            border-radius: 5px;
+            border: 2px solid #396EBD;
+            text-align: left;
+            padding: 8px 10px;
+        }
+
+        main .contents .table .project .project_wrap_top ul .top_section_01 .round_box_jsm {
+            display: inline-block;
+            width: 168px;
+            height: 36px;
+            font-size: 0.813rem;
+            border-radius: 5px;
+            border: 2px solid #FFBFE2;
+            text-align: left;
+            padding: 8px 10px;
+        }
+
+        main .contents .table .project .project_wrap_top ul .top_section_01 .round_box_912 {
+            display: inline-block;
+            width: 168px;
+            height: 36px;
+            font-size: 0.813rem;
+            border-radius: 5px;
+            border: 2px solid #111111;
+            text-align: left;
+            padding: 8px 10px;
+        }
+
+        main .contents .table .project .project_wrap_top ul .top_section_01 .round_box_bebe {
+            display: inline-block;
+            width: 168px;
+            height: 36px;
+            font-size: 0.813rem;
+            border-radius: 5px;
+            border: 2px solid #B48B78;
+            text-align: left;
+            padding: 8px 10px;
+        }
+
+        main .contents .table .project .project_text {
+            display: flex;
+            justify-content: space-between;
+            height: 54px;
+            align-items: center;
+            padding: 0 20px;
+            border-bottom: 1px solid #D9D9D9;
+        }
+
+        main .contents .table .project .project_text span {
+            font-size: 0.938rem;
+        }
+
+        main .contents .table .project .project_text img {
+            width: 9px;
+            height: 9px;
+        }
+
+        main .contents .table .project .project_wrap_top ul li {
+            width: 268px;
+            justify-content: space-between;
+            display: flex;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li:first-child {
+            margin-top: 27px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li {
+            width: 268px;
+            height: 27px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin-bottom: 9px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul .prototype {
+            margin-top: 15px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li em {
+            width: 180px;
+            text-align: left;
+            font-size: 0.813rem;
+            display: inline-block;
+            height: 27px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li .program {
+            padding-top: 4px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li span {
+            width: 100%;
+            text-align: left;
+            font-size: 0.813rem;
+            display: inline-block;
+            color: #777777;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li span a {
+            display: inline-block;
+            color: #969696;
+            height: 20px;
+            width: 50px;
+            text-align: center;
+            border-bottom: 1px solid #969696;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li .project_img {
+            width: 230px;
+            display: flex;
+            align-items: center;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li .project_img_cafe {
+            display: flex;
+            align-items: center;
+            width: 127px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li .project_img_cafe .cafe24 {
+            width: 61px;
+            height: 11px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li .project_img_cafe img {
+            width: 25px;
+            height: 25px;
+            margin-right: 8px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li .project_img img {
+            width: 25px;
+            height: 25px;
+            margin-right: 8px;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li .project_img_long {
+            width: 128px;
+            display: flex;
+        }
+
+        main .contents .table .project .project_wrap_bottom ul li .project_img_long img {
+            width: 25px;
+            height: 25px;
+            margin-right: 8px;
+        }
+
+
+        /* 4페이지 -------------------------------------=----------------------- */
+        main .re_design_section .bg_1 {
+            background-image: url(./images/bg_1.png);
+            height: 919px;
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+            
+        }
+
+        main .re_design_section .bg_left {
+            margin-right: 110px;
+        }
+
+        main .re_design_section .bg_btn {
+            display: flex;
+            gap: 17px;
+            margin-top: 50px;
+        }
+
+        main .re_design_section .bg_btn a {
+            font-weight: 400;
+            color: #000;
+            background-color: #fff;
+            width: 125px;
+            height: 45px;
+            text-align: center;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 12px;
+        }
+
+        main .re_design_section .bg_btn a:hover {
+            font-weight: 400;
+            color: #fff;
+            background-color: #3586FF;
+            width: 125px;
+            height: 45px;
+            text-align: center;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 12px;
+            transition: 0.3s ease;
+            /* ----------------------------------- */
+        }
+
+        main .re_design_section .bg_left {
+            margin-right: 110px;
+            display: flex;
+            flex-flow: column;
+        }
+
+        main .re_design_section .bg_btn a img {
+            margin-right: 7px;
+        }
+
+        main .re_design_section .bg_right_mokup {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
+
+        main .re_design_section .bg_left_mokup {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            margin-right: 110px;
+        }
+
+
+
+        main .re_design_section a {
+            color: #fff;
+            font-weight: 300;
+            display: inline-block;
+            width: 159px;
+            height: 45px;
+            border-radius: 10px;
+            text-align: center;
+            align-items: center;
+            padding-top: 12px;
+        }
+
+        main .re_design_section .bg_right_mokup a {
+            border: 1px solid #fff;
+        }
+
+        main .re_design_section .bg_left_mokup a {
+            border: 1px solid #fff;
+        }
+
+        main .re_design_section a:hover {
+            color: #000;
+            background-color: #fff;
+            font-weight: 400;
+            display: inline-block;
+            width: 159px;
+            height: 45px;
+            border-radius: 10px;
+            text-align: center;
+            align-items: center;
+            padding-top: 12px;
+            transition: 0.3s ease;
+            /* ----------------------------------- */
+        }
+
+        main .re_design_section p {
+            color: #fff;
+            margin-bottom: 5px;
+            font-weight: 300;
+        }
+
+        main .re_design_section .brand_name {
+            font-size: 2.688rem;
+            color: #fff;
+            margin-bottom: 40px;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        main .re_design_section span {
+            color: #fff;
+            font-weight: 300;
+        }
+
+        main .re_design_section ul {
+            margin-bottom: 25px;
+            height: 205px;
+        }
+
+        main .re_design_section ul li {
+            color: #fff;
+            display: flex;
+            font-weight: 300;
+            margin-bottom: 25px;
+        }
+
+        main .re_design_section ul li em {
+            color: #fff;
+            width: 100px;
+            font-weight: 300;
+        }
+
+        main .re_design_section a {
+            color: #fff;
+        }
+
+        main .re_design_section span {
+            line-height: 180%;
+        }
+
+
+        main .re_design_section .bg_2 {
+            background-image: url(./images/bg_2.png);
+            height: 919px;
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+
+        }
+
+        main .re_design_section .bg_3 {
+            background-image: url(./images/bg_3.png);
+            height: 919px;
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        main .re_design_section .bg_4 {
+            background-image: url(./images/bg_4.png);
+            height: 919px;
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        /* 5페이지 ------------------------------------------------------------- */
+        #graphic {
+            background: #F9F9F9;
+        }
+
+        #graphic .grp_contents {
+            width: 1600px;
+            min-width: 1600px;
+            padding-left: 120px;
+            display: flex;
+            padding-top: 100px;
+            height: 919px;
+        }
+        
+        #graphic .grp_contents .left {
+            width: calc(100% - 450px);
+            float: left;
+            margin-left: 96px;
+        }
+        
+        #graphic .grp_contents .left .title {
+            background: #F9F9F9;
+            padding-bottom: 20px;
+            padding-top: 72px;
+        }
+        
+        #graphic .grp_contents .left .title .mytag {}
+        
+        #graphic .grp_contents .left .title p {
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: #969696;
+            margin-bottom: 15px;
+        }
+        
+        #graphic .grp_contents .left .title h3 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 35px;
+            color: #3586FF;
+        }
+        
+        #graphic .grp_contents .left .title h3 em {
+            font-weight: 800;
+        }
+
+        
+        
+        
+        
+        #graphic .grp_contents .left .design1 {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 20px;
+        }
+        
+        #graphic .grp_contents .left .design1 .swiper-wrapper {
+            transition-timing-function: linear;
+        }
+        
+        #graphic .grp_contents .left .design1 .swiper-slide {}
+        
+        #graphic .grp_contents .left .design1 .swiper-slide img {}
+
+
+        
+        
+        
+        #graphic .grp_contents .left .design2 {
+            width: 100%;
+            height: 338px;
+            border-radius: 20px;
+        }
+
+        #graphic .grp_contents .left .design2 .swiper-wrapper {
+            transition-timing-function: linear;
+        }
+
+        #graphic .grp_contents .left .design2 .swiper-slide {}
+
+        #graphic .grp_contents .left .design2 .swiper-slide img {}
+
+        
+
+        #graphic .grp_contents .design3_set {
+            width: 400px;
+            height: 1320px;
+            position: relative;
+            padding-top: 50px;
+        }
+
+        #graphic .grp_contents .design3_set .design3 {
+            width: 400px;
+            height: 700px;
+            border-radius: 20px;
+            margin-left: 50px;
+        }
+
+        #graphic .grp_contents .design3_set .design3 .swiper-wrapper {
+            transition-timing-function: linear;
+        }
+
+        #graphic .grp_contents .design3_set .design3 .swiper-slide {}
+
+        #graphic .grp_contents .design3_set .design3 .swiper-slide img {}
+
+
+
+        /* 이미지 호버 공통 선택자 */
+        #graphic .grp_contents .left .design1 .swiper-slide img,
+        #graphic .grp_contents .left .design2 .swiper-slide img,
+        #graphic .grp_contents .design3_set .design3 .swiper-slide img {
+            width: 100%;
+            cursor: pointer;
+            transition: transform 0.5s;
+        }
+
+        #graphic .grp_contents .left .design1 .swiper-slide img:hover,
+        #graphic .grp_contents .left .design2 .swiper-slide img:hover,
+        #graphic .grp_contents .design3_set .design3 .swiper-slide img:hover {
+            transform: rotate(5deg)
+        }
+
+        /* 클릭시 디자인 프로젝트 팝업 */
+        #graphic .grp_contents .popup_bg {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 999;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        
+        #graphic .grp_contents .popup_bg .popup {
+            width: 700px;
+            height: 800px;
+            overflow: auto;
+            margin: 0 auto;
+            border-radius: 5px;
+
+        }
+
+        #graphic .grp_contents .popup_bg .popup img {
+            width: 100%;
+            border-radius: 5px;
+
+        }
+
+
+        #graphic .design1 {
+            width: 100%;
+            height: auto; /* design1 슬라이드 높이 */
+        }
+
+        #graphic .design2 {
+            width: 100%;
+        }
+
+        #graphic .design3 {
+            width: 400px;
+            height: 700px; /* design3 슬라이드 높이 */
+        }
+
+        .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+            display: flex;
+            left: 223px;
+            padding-top: 50px;
+            height: 0px;
+        }
+
+
+
+        /* 6페이지 -------------------------------------=----------------------- */
+        main .thank {
+            background-color: #F9F9F9;
+            text-align: center;
+            height: 919px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            padding-top: 100px;
+        }
+
+        main .thank .grow {
+            font-size: 1.125rem;
+            margin-bottom: 30px;
+        }
+
+        main .thank .thankyou {
+            color: #3586FF;
+            font-weight: 500;
+            font-size: 5rem;
+            margin-bottom: 153px;
+        }
+
+        main .thank .qr {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 60px;
+            align-items: last baseline;
+        }
+
+        main .thank .qr .thankyou_group {
+            display: flex;
+            height: 100%;
+            flex-flow: column;
+            text-align: left;
+            margin-left: 25px;
+        }
+
+        main .thank .qr p {
+            color: #3586FF;
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        main .thank .qr ul {
+            display: flex;
+            flex-flow: column;
+        }
+
+        main .thank .qr ul li {
+            width: 100%;
+            margin-bottom: 17px;
+        }
+
+        main .thank .qr ul li em {
+            color: #969696;
+            margin-right: 15px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Profile</a>
+                <a href="#">Contents</a>
+                <a href="#">Projects</a>
+                <a href="#">Design</a>
+            </nav>
+        </header>
+        <main>
+            <div class="swiper mainSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main_section">
+                        <!-- ★ 1페이지 메인 -->
+                        <div class="main_section">
+                            <img src="./images/main_bg.png" alt="메인배경이미지">
+                            <div class="main_text">
+                                <h1>Web-Designer</h1>
+                                <h2>PORTFOLIO</h2>
+                                <div class="span_group">
+                                    <span>Byeon Su Min</span>
+                                    <span>soomin3205@naver.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide profile">
+                        <!-- ★ 2페이지 내 소개 -->
+                        <div class="profile">
+                            <div class="img_section">
+                                <img src="./images/my_picture.png" alt="내이미지">
+                                <span>
+                                    <span class="see_feel">보이는 것</span>을 넘어,
+                                    <span class="see_feel">느껴지는 것</span>을 설계하는<br>
+                                    웹디자이너 변수민 입니다.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="profile_text">
+                            <!-- About me & Education -->
+                            <ul class="title_section_01">
+                                <!-- About me -->
+                                <li class="title">
+                                    <strong>About me</strong>
+                                    <ul>
+                                        <li><em class="group_1">이름</em> 변수민</li>
+                                        <li><em class="group_1">Birth</em> 2000.02.13</li>
+                                        <li><em class="group_1">Mobile</em> 010-4157-0391</li>
+                                        <li class="Email"><em class="group_1">E-mail</em> soomin3205@naver.com</li>
+                                    </ul>
+                                </li>
+
+                                <!-- Education -->
+                                <li class="title">
+                                    <strong>Education</strong>
+                                    <ul>
+                                        <li><em>2022.03 - 2026.02</em> 홍익대학교 디자인경영융합학부 졸업 예정</li>
+                                        <li><em>2025.07 - 2025.12</em> UI/UX 프론트엔드 반응형웹디자인&웹퍼블리셔 과정 수료</li>
+                                        <li><em>2016.03 - 2019.01</em> 인천여자상업고등학교 졸업</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <!-- License -->
+                            <div class="title_section_2">
+                                <ul class="title_section_02">
+                                    <li class="title">
+                                        <strong>License</strong>
+                                        <ul>
+                                            <li class="license"><em>2025.12</em> 웹디자인개발기능사 실기 준비 중</li>
+                                            <li><em>2022.04</em> GTQ 1급</li>
+                                            <li><em>2018.08</em> ERP 회계정보관리사 2급</li>
+                                            <li><em>2018.08</em> ERP 인사정보관리사 2급</li>
+                                            <li><em>2018.07</em> ITQ 엑셀 (A등급)</li>
+                                            <li><em>2018.04</em> 전산회계운용사 3급</li>
+                                            <li><em>2016.12</em> ITQ 파워포인트 (A등급)</li>
+                                            <li><em>2016.10</em> 워드프로세서</li>
+                                            <li><em>2016.07</em> ITQ 한글 (A등급)</li>
+                                            <li><em>2016.06</em> 전산회계 2급</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <!-- Career & Skill -->
+                                <div class="title_section_03">
+                                    <!-- Career -->
+                                    <div class="title">
+                                        <strong>Career</strong>
+                                        <ul>
+                                            <li><em>2019.09 - 2025.05</em> 동화기업 세무팀, 경영기획팀 근무</li>
+                                            <li><em>2018.12 - 2019.09</em> 태양합성 회계팀, 경영지원팀 근무</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Skill -->
+                                    <div class="skill">
+                                        <strong>Skill</strong>
+                                        <ul class="skill_list">
+                                            <li class="skill_01">
+                                                <ul>
+                                                    <li><img src="./images/photoshop.png" alt="포토샵"></li>
+                                                    <li><img src="./images/illustrator.png" alt="일러스트"></li>
+                                                    <li><img src="./images/figma.png" alt="피그마"></li>
+                                                    <li><img src="./images/notion.png" alt="노션"></li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="skill_02">
+                                                <ul>
+                                                    <li><img src="./images/html.png" alt="HTML"></li>
+                                                    <li><img src="./images/css.png" alt="CSS"></li>
+                                                    <li><img src="./images/js.png" alt="JS"></li>
+                                                    <li><img src="./images/github.png" alt="GitHub"></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide contents">
+                        <!-- ★ 3페이지 목차 -->
+                        <div class="contents">
+                            <div class="contents_text">
+                                <h2>웹 리디자인 Contents</h2>
+                                <span>Table of Contents</span>
+                            </div>
+                            <div class="table">
+                                <!-- project_1 -->
+                                <div class="project">
+                                    <div class="project_text">
+                                        <span>Project 1</span>
+                                        <img src="./images/x.png" alt="엑스표시">
+                                    </div>
+                                    <div class="project_wrap_top">
+                                        <img src="./images/nike_logo.png" alt="나이키 로고">
+                                        <ul>
+                                            <li class="top_section_01">
+                                                <em class="name">Name</em>
+                                                <span class="round_box_nike">나이키</span>
+                                            </li>
+                                            <li class="top_section_01">
+                                                <em>Description</em>
+                                                <span class="round_box">글로벌 스포츠 브랜드</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="project_wrap_bottom">
+                                        <ul>
+                                            <li>
+                                                <em>기여도</em>
+                                                <span>100% 개인 프로젝트</span>
+                                            </li>
+                                            <li>
+                                                <em>작업기간</em>
+                                                <span>25.10.23 - 25.10.28</span>
+                                            </li>
+                                            <li>
+                                                <em class="program">사용 프로그램</em>
+                                                <div class="project_img_long">
+                                                    <img src="./images/photoshop.png" alt="포토샵">
+                                                    <img src="./images/figma.png" alt="피그마">
+                                                    <img src="./images/html.png" alt="html">
+                                                    <img src="./images/css.png" alt="css">
+                                                    <img src="./images/js.png" alt="자바스크립트">
+                                                </div>
+                                            </li>
+                                            <li class="prototype">
+                                                <em>프로토타입</em>
+                                                <span><a href="#">바로가기</a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- project_2 -->
+                                <div class="project">
+                                    <div class="project_text">
+                                        <span>Project 2</span>
+                                        <img src="./images/x.png" alt="엑스표시">
+                                    </div>
+                                    <div class="project_wrap_top">
+                                        <img src="./images/jsm_logo.png" alt=" 정샘물 로고">
+                                        <ul>
+                                            <li class="top_section_01">
+                                                <em class="name">Name</em>
+                                                <span class="round_box_jsm">정샘물</span>
+                                            </li>
+                                            <li class="top_section_01">
+                                                <em>Description</em>
+                                                <span class="round_box">화장품 코스메틱 브랜드</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="project_wrap_bottom">
+                                        <ul>
+                                            <li>
+                                                <em>기여도</em>
+                                                <span>100% 개인 프로젝트</span>
+                                            </li>
+                                            <li>
+                                                <em>작업기간</em>
+                                                <span>25.10.08 - 25.10.14</span>
+                                            </li>
+                                            <li>
+                                                <em class="program">사용 프로그램</em>
+                                                <div class="project_img_cafe">
+                                                    <img src="./images/photoshop.png" alt="포토샵">
+                                                    <img src="./images/figma.png" alt="피그마">
+                                                    <img class="cafe24" src="./images/cafe24.png" alt="카페24">
+                                                </div>
+                                            </li>
+                                            <li class="prototype">
+                                                <em>프로토타입</em>
+                                                <span><a href="#">바로가기</a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- project_3 -->
+                                <div class="project">
+                                    <div class="project_text">
+                                        <span>Project 3</span>
+                                        <img src="./images/x.png" alt="엑스표시">
+                                    </div>
+                                    <div class="project_wrap_top">
+                                        <img src="./images/912_logo.png" alt=" 912 로고">
+                                        <ul>
+                                            <li class="top_section_01">
+                                                <em class="name">Name</em>
+                                                <span class="round_box_912">912</span>
+                                            </li>
+                                            <li class="top_section_01">
+                                                <em>Description</em>
+                                                <span class="round_box">향수 브랜드</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="project_wrap_bottom">
+                                        <ul>
+                                            <li>
+                                                <em>기여도</em>
+                                                <span>100% 개인 프로젝트</span>
+                                            </li>
+                                            <li>
+                                                <em>작업기간</em>
+                                                <span>25.10.16 - 25.10.21</span>
+                                            </li>
+                                            <li>
+                                                <em class="program">사용 프로그램</em>
+                                                <div class="project_img_long">
+                                                    <img src="./images/photoshop.png" alt="포토샵">
+                                                    <img src="./images/figma.png" alt="피그마">
+                                                    <img src="./images/html.png" alt="html">
+                                                    <img src="./images/css.png" alt="css">
+                                                    <img src="./images/js.png" alt="자바스크립트">
+                                                </div>
+                                            </li>
+                                            <li class="prototype">
+                                                <em>프로토타입</em>
+                                                <span><a href="#">바로가기</a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- project_4 -->
+                                <div class="project">
+                                    <div class="project_text">
+                                        <span>Project 4</span>
+                                        <img src="./images/x.png" alt="엑스표시">
+                                    </div>
+                                    <div class="project_wrap_top">
+                                        <img src="./images/bebe_logo.png" alt=" 베베드피노 로고">
+                                        <ul>
+                                            <li class="top_section_01">
+                                                <em class="name">Name</em>
+                                                <span class="round_box_bebe">베베드피노</span>
+                                            </li>
+                                            <li class="top_section_01">
+                                                <em>Description</em>
+                                                <span class="round_box">유아 · 키즈 의류 브랜드</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="project_wrap_bottom">
+                                        <ul>
+                                            <li>
+                                                <em>기여도</em>
+                                                <span>100% 개인 프로젝트</span>
+                                            </li>
+                                            <li>
+                                                <em>작업기간</em>
+                                                <span>25.10.01 - 25.10.06</span>
+                                            </li>
+                                            <li>
+                                                <em class="program">사용 프로그램</em>
+                                                <div class="project_img">
+                                                    <img src="./images/photoshop.png" alt="포토샵">
+                                                    <img src="./images/figma.png" alt="피그마">
+                                                </div>
+                                            </li>
+                                            <li class="prototype">
+                                                <em>프로토타입</em>
+                                                <span><a href="#">바로가기</a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide re_design_section">
+                        <!-- ★ 4페이지 웹 리디자인-->
+                        <div class="re_design_section">
+                            <!-- bg_1 -->
+                            <div class="bg_1">
+                                <div class="bg_left">
+                                    <p>글로벌 스포츠 브랜드</p>
+                                    <span class="brand_name">나이키</span>
+                                    <ul>
+                                        <li><em>제작기간</em>25.10.23 - 25.10.28 (5일)</li>
+                                        <li><em>기여도</em>개인 100%</li>
+                                        <li><em>TOOL</em>figma / photoshop / html / css / js</li>
+                                        <li><em>TYPE</em>웹페이지 리디자인</li>
+                                        <li><em>PAGE</em>메인 / 서브 / 검색 / 카테고리</li>
+                                    </ul>
+                                    <span>
+                                        나이키는 글로벌 스포츠 브랜드로, 혁신적인 기술과 세련된 디자인을 접목한 운동<br>
+                                        화, 의류, 액세서리 제품들을 선보입니다. 러닝, 트레이닝,라이프스타일 등 다양한<br>
+                                        카테고리를 기반으로 스포츠 퍼포먼스와 스타일을 동시에 제공하며, 기존 웹페<br>
+                                        이지의 문제점을 분석하고 사용자 경험 중심의 웹페이지로 리디자인했습니다.
+                                    </span>
+                                    <div class="bg_btn">
+                                        <a href="#">
+                                            <img class="hover_img" src="./images/web_figma.png" alt="피그마 이미지"
+                                                data-original="./images/web_figma.png"
+                                                data-hover="./images/web_figma_white.png">
+                                            프로토타입</a>
+                                        <a href="#">
+                                            <img class="hover_img" src="./images/web_clip.png" alt="기획서 이미지"
+                                                data-original="./images/web_clip.png"
+                                                data-hover="./images/web_clip_white.png">
+                                            기획서</a>
+                                        <a href="#">
+                                            <img class="hover_img" src="./images/web_github.png" alt="깃허브 이미지"
+                                                data-original="./images/web_github.png"
+                                                data-hover="./images/web_github_white.png">
+                                            GitHub</a>
+                                        <a href="#">원본사이트</a>
+                                    </div>
+                                </div>
+                                <div class="bg_right_mokup">
+                                    <img src="./images/nike_mokup.png" alt="나이키 목업">
+                                    <a href="#">Back to Contents</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide re_design_section">
+                        <!-- bg_2 -->
+                        <div class="bg_2">
+                            <div class="bg_left_mokup">
+                                <img src="./images/nike_mokup.png" alt="정샘물 목업">
+                                <a class="back_to" href="#">Back to Contents</a>
+                            </div>
+                            <div class="bg_right">
+                                <p>화장품 코스메틱 브랜드</p>
+                                <span class="brand_name">정샘물</span>
+                                <ul>
+                                    <li><em>제작기간</em>25.10.08 - 25.10.14 (6일)</li>
+                                    <li><em>기여도</em>개인 100%</li>
+                                    <li><em>TOOL</em>figma / photoshop / html / css / js</li>
+                                    <li><em>TYPE</em>웹페이지 리디자인</li>
+                                    <li><em>PAGE</em>메인 / 서브 / 검색 / 카테고리</li>
+                                </ul>
+                                <span>
+                                    정샘물은 메이크업 아티스트 정샘물의 뷰티 철학이 담긴 코스메틱 브랜드로, 자연<br>
+                                    스러운 피부 표현과 본연의 아름다움을 강조하는 제품들을 선보입니다. 파운데이<br>
+                                    션, 립, 아이 메이크업 등 다양한 메이크업 라인을 중심으로 스킨케어까지 확장된<br>
+                                    구성을 갖추고 있으며, 기존 웹페이지의 문제점을 분석하여 사용자 경험 중심의 웹<br>
+                                    페이지로 새롭게 리디자인했습니다.
+                                </span>
+                                <div class="bg_btn">
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_figma.png" alt="피그마 이미지"
+                                            data-original="./images/web_figma.png"
+                                            data-hover="./images/web_figma_white.png">
+                                        프로토타입</a>
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_clip.png" alt="기획서 이미지"
+                                            data-original="./images/web_clip.png"
+                                            data-hover="./images/web_clip_white.png">
+                                        기획서</a>
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_github.png" alt="깃허브 이미지"
+                                            data-original="./images/web_github.png"
+                                            data-hover="./images/web_github_white.png">
+                                        GitHub</a>
+                                    <a href="#">원본사이트</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide re_design_section">
+                        <!-- bg_3 -->
+                        <div class="bg_3">
+                            <div class="bg_left">
+                                <p>향수 브랜드</p>
+                                <span class="brand_name">912</span>
+                                <ul>
+                                    <li><em>제작기간</em>25.10.16 - 25.10.21 (5일)</li>
+                                    <li><em>기여도</em>개인 100%</li>
+                                    <li><em>TOOL</em>figma / photoshop / html / css / js</li>
+                                    <li><em>TYPE</em>웹페이지 리디자인</li>
+                                    <li><em>PAGE</em>메인 / 서브 / 검색 / 카테고리</li>
+                                </ul>
+                                <span>
+                                    912는 다양한 니치 향을 일상적으로 즐길 수 있도록 재해석한 향수 브랜드로, 감각<br>
+                                    적인 향 조합과 개성 있는 분위기를 담은 제품들을 선보입니다. 플로럴, 시트러스 등<br>
+                                    폭넓은 향 라인을 기반으로 데일리 향수와 실내 향 제품을 제공하며, 기존 웹페이지<br>
+                                    의 문제점을 개선하여 사용자 경험 중심의 웹페이지로 새롭게 리디자인했습니다.
+                                </span>
+                                <div class="bg_btn">
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_figma.png" alt="피그마 이미지"
+                                            data-original="./images/web_figma.png"
+                                            data-hover="./images/web_figma_white.png">
+                                        프로토타입</a>
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_clip.png" alt="기획서 이미지"
+                                            data-original="./images/web_clip.png"
+                                            data-hover="./images/web_clip_white.png">
+                                        기획서</a>
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_github.png" alt="깃허브 이미지"
+                                            data-original="./images/web_github.png"
+                                            data-hover="./images/web_github_white.png">
+                                        GitHub</a>
+                                    <a href="#">원본사이트</a>
+                                </div>
+                            </div>
+                            <div class="bg_right_mokup">
+                                <img src="./images/nike_mokup.png" alt="912 목업">
+                                <a href="#">Back to Contents</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide re_design_section">
+                        <!-- bg_4 -->
+                        <div class="bg_4">
+                            <div class="bg_left_mokup">
+                                <img src="./images/nike_mokup.png" alt="베베드피노 목업">
+                                <a class="back_to">Back to Contents</a>
+                            </div>
+                            <div class="bg_right">
+                                <p>아동 의복 브랜드</p>
+                                <span class="brand_name">베베드피노</span>
+                                <ul>
+                                    <li><em>제작기간</em>25.10.01 - 25.10.10 (7일)</li>
+                                    <li><em>기여도</em>개인 100%</li>
+                                    <li><em>TOOL</em>figma / photoshop / html / css / js</li>
+                                    <li><em>TYPE</em>웹페이지 리디자인</li>
+                                    <li><em>PAGE</em>메인 / 서브 / 검색 / 카테고리</li>
+                                </ul>
+                                <span>
+                                    베베드피노는 유아·키즈 의류 브랜드로, 개성 있는 그래픽과 귀여운 캐릭터 디자인<br>
+                                    브랜드 입니다. 주로 베이비·키즈용 티셔츠, 상하복, 아우터, 악세서리 등의 제품을<br>
+                                    선보이며, 기존 웹페이지의 문제점을 개선하여 사용자 경험 기반 웹페이지로 리디<br>
+                                    자인 했습니다.
+                                </span>
+                                <div class="bg_btn">
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_figma.png" alt="피그마 이미지"
+                                            data-original="./images/web_figma.png"
+                                            data-hover="./images/web_figma_white.png">
+                                        프로토타입</a>
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_clip.png" alt="기획서 이미지"
+                                            data-original="./images/web_clip.png"
+                                            data-hover="./images/web_clip_white.png">
+                                        기획서</a>
+                                    <a href="#">
+                                        <img class="hover_img" src="./images/web_github.png" alt="깃허브 이미지"
+                                            data-original="./images/web_github.png"
+                                            data-hover="./images/web_github_white.png">
+                                        GitHub</a>
+                                    <a href="#">원본사이트</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" id="graphic">
+                        <div class="grp_contents" title="클릭 시 크게 보실 수 있어요!">
+                            <div class="left">
+                                <div class="title">
+                                    <p class="mytag"># SNS # 배너 # 상세페이지 # 포스터</p>
+                                    <h3>Design Project</h3>
+                                </div>
+                                <div class="txt_circle"></div>
+                                <div class="swiper design1 banner">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide de1"><img src="./images/swiper_banner_01.png" alt=""></div>
+                                        <div class="swiper-slide de2"><img src="./images/swiper_banner_02.png" alt=""></div>
+                                        <div class="swiper-slide de3"><img src="./images/swiper_banner_03.png" alt=""></div>
+                                        <div class="swiper-slide de4"><img src="./images/swiper_banner_04.png" alt=""></div>
+                                        <div class="swiper-slide de5"><img src="./images/swiper_banner_05.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="swiper design2 snsDetail">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide de1"><img src="./images/swiper_sns_01.png" alt=""></div>
+                                        <div class="swiper-slide de2"><img src="./images/swiper_sns_02.png" alt=""></div>
+                                        <div class="swiper-slide de3"><img src="./images/swiper_sns_03.png" alt=""></div>
+                                        <div class="swiper-slide de4"><img src="./images/swiper_sns_04.png" alt=""></div>
+                                        <div class="swiper-slide de5"><img src="./images/swiper_sns_05.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="design3_set">
+                                <div class="swiper design3 snsDetail">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide de1"><img src="./images/swiper_detail_01.png" alt=""></div>
+                                        <div class="swiper-slide de2"><img src="./images/swiper_detail_02.png" alt=""></div>
+                                        <div class="swiper-slide de3"><img src="./images/swiper_detail_03.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- 디자인 프로젝트 팝업 -->
+                            <div class="popup_bg" title="클릭하면 닫혀요">
+                                <div class="popup"><img src="./images/swiper_sns_05.png" alt=""></div>
+                            </div>
+                        </div><!-- contents end -->
+                    </div>
+                    <div class="swiper-slide thank">
+                        <!-- 6페이지 감사합니다 -->
+                        <div class="thank">
+                            <span class="grow">변화하는 시대 흐름에 맞춰 늘 성장하는 디자이너가 되겠습니다.</span>
+                            <span class="thankyou">THANK YOU !</span>
+                            <div class="qr">
+                                <img src="./images/qr_code.png" alt="큐알코드">
+                                <div class="thankyou_group">
+                                    <p>변수민</p>
+                                    <ul>
+                                        <li><em>Phone</em>82+ 10-4157-0391</li>
+                                        <li><em>E-mail</em>soomin3205@naver.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+
+</html>
